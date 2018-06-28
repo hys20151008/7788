@@ -23,6 +23,10 @@ Y = list(zip(y,e))
 for i in range(len(X)):
     plt.plot(X[i],Y[i],'r')
 
+plt.title("Linear regression use least square method")
+plt.xlabel(r'$x$', horizontalalignment='right', x=1.0)
+plt.ylabel(r'$y$', horizontalalignment='right', y=1.0, rotation=0)
+
 plt.plot(x, e)
 plt.grid(True)
 plt.show()
